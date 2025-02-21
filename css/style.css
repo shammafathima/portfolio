@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+} 
+body{
+    font-family: "Darker Grotesque", serif;
+}
+p{
+    font-family: "Darker Grotesque", serif;
+    
+}
+h1,h2,h3,h4,h5,h6{
+
+    font-family: "Darker Grotesque", serif;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none !important;
+    font-family: "Darker Grotesque", serif;
+    
+  
+}
+li{
+    list-style: none;
+}
+
+:root{
+    --primaryclr: #010217;
+    --secondaryclr:#fff;
+
+}
+ ul {
+    padding-left: 0px!important;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #873e3e; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
