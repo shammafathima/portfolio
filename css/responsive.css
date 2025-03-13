@@ -64,6 +64,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  video {
+    height: 100%;
+    object-fit: cover;
+  }
   .container {
     padding-left: 20px !important;
     padding-right: 20px !important;
